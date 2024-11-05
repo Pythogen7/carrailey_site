@@ -8,35 +8,61 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="navbar">
-  <nav>
-    <a href="easyclip.html" class="nav-button">Easy Clip</a>
-    <a href="index.html" class="nav-button">
-     Logo
-    </a>
-    <a href="about.html" class="nav-button">About Us</a>
-  </nav>
-</div>
+    <header class="navbar">
+        <nav>
+            <a href="easyclip.html" class="nav-button">Easy Clip</a>
+            <a href="index.html" class="nav-button">Logo</a>
+            <a href="about.html" class="nav-button">About Us</a>
+        </nav>
+    </header>
 
- <main>
-  <h1>Easy Clip</h1>
+    <main>
+        <!-- Product Section -->
+        <section class="product">
+            <div class="product-image-container">
+                <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Easy Clip Product" class="product-image">
+            </div>
+            <div class="product-details">
+                <h1>Easy Clip</h1>
+                <div class="buy-buttons">
+                    <a href="https://www.amazon.com" class="button amazon-button" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Amazon_icon.png" alt="Amazon Logo"> Buy on Amazon
+                    </a>
+
+                   <p>Wanted to order in bulk? <a href="mailto:support@example.com" class="contact-link">Contact Us</a></p>
+
+                </div>
+            </div>
+        </section>
+
+	<!-- USA Text Section -->
+        <section class="usa-text" id="usa_text">
+            <h2>Engineered, Printed, and Assembled in the USA</h2>
+            <img src="https://cdn.pixabay.com/photo/2016/03/31/18/48/flag-1294654_1280.png" alt="USA Flag">
+        </section>
 
 
-  <div class="product-container">
-    <!-- Product Image -->
-    <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Easy Clip Product" class="product-image">
+        <!-- USA Section -->
+        <section class="usa-section" id="usa_section">
+            <div class="usa-column">
 
-    <!-- Buy Buttons -->
-    <div class="buy-buttons">
-      <a href="https://www.amazon.com" class="amazon-button" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Amazon_icon.png" alt="Amazon Logo"> Buy on Amazon
-      </a>
-      <a href="mailto:example@example.com" class="bulk-button" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/666/666162.png" alt="Bulk Order Icon"> Bulk Order Request
-      </a>
-    </div>
-  </div>
-</main>
+                <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Placeholder Image">
+                <h2>Engineered</h2>
+            </div>
+            <div class="usa-column">
+
+                <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Placeholder Image">
+                <h2>Printed</h2>
+            </div>
+            <div class="usa-column">
+
+                <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Placeholder Image">
+                <h2>Assembled</h2>
+            </div>
+        </section>
+
+        
+    </main>
 
 </body>
 </html>
